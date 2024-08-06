@@ -14,7 +14,7 @@ const { data } = await useFetch('/api/posts', {
       useFetch with getCachedData
     </h1>
     <UAlert
-      title="gets data once and caches it on the client until the app lives"
+      title="gets data once and caches it on the client until the user makes a full page reload"
     />
     <ul
       v-if="data"
