@@ -46,7 +46,7 @@ const { data } = await useLazyFetch('/api/recipes')
         :key="idx"
         class="grid grid-cols-[200px_1fr] gap-4 border-2 rounded-md p-4"
       >
-        <div class="w-full h-20 bg-slate-100" />
+        <div class="w-full h-[200px] bg-slate-100" />
         <div class="flex flex-col gap-4">
           <div class="w-20 h-5 bg-slate-100" />
           <div class="w-20 h-5 bg-slate-100" />
