@@ -28,7 +28,7 @@ const { data } = await useLazyFetch('/api/recipes')
           :to="`/lazy/${recipe.id}`"
           class="grid grid-cols-[200px_1fr] gap-4 border-2 rounded-md p-4"
         >
-          <img :src="recipe.image">
+          <img width="200" height="200" :src="recipe.image">
           <div>
             <h3>{{ recipe.name }}</h3>
             <p>{{ recipe.cuisine }}</p>
